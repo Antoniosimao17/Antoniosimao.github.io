@@ -22,14 +22,19 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 3%;
-    margin: 0;
-    width: 94.3%;
+      box-sizing: border-box;
+    width: 100%;
     text-align: center;
     background:#0a0f1a;
 }
+nav a{
+      padding: 0.85rem;
+}
  a:hover{
-        color: aqua;
+         padding: 14px 14px;
+     background: blue;
+     border-radius:25px;
+     color: white;
        }
 .Projecto{
     width: 70%;
@@ -78,7 +83,7 @@ video, img{
    .nav-link.active{
     backdrop-filter: blur(10px);
     width: 25%;
-  background:rgba(255, 255, 255, 0.12);
+   background: rgba(37,99,235,0.35);
      border-radius:25px;
      color: white;
  }
@@ -176,7 +181,7 @@ video, img{
       .nav-link.active{
     backdrop-filter: blur(10px);
     padding: 14px 16px;
-     background:rgba(255, 255, 255, 0.12);
+      background: rgba(37,99,235,0.35);
      border-radius:25px;
      color: white;
  }
@@ -206,15 +211,15 @@ video, img{
     <div class="geral">
 
 <div class="Projecto">
-    <p><b>API-BI/Portal de Serviços de Identidade.</b> Sistema Full Stack de gestão de solicitação de BI, com fluxo completo de submissão, validação, correção e aprovação. Desenvolvido com Spring Boot e mecanismos de segurançacomo JWT, AES-256-GCM, 2FA.</p>
-  <video controls preload="none">
+    <p><b>API-BI/Portal de Serviços de Identidade.</b> Sistema Full Stack de gestão de solicitação de BI, com fluxo completo de submissão, validação, correção e aprovação. Desenvolvido com Spring Boot e mecanismos de segurança como JWT, AES-256-GCM, 2FA.</p>
+  <video controls preload="metadata">
          <source src="videos/portal_identidade_demo-2.mp4" type="video/mp4">
   </video>
 </div>
 
     <div class="Projecto">
-        <p><b>Portal Anonymous.</b> O meu primeiro projecto foi o desenvolvimento de um site para download de FILMES e SÉRIES,  contendo uma página dedicada à músicas.</p>
-        <video controls preload="none">
+        <p><b>Portal Anonymous.</b> O meu primeiro projecto foi o desenvolvimento de um site para download de FILMES e SÉRIES,  contendo uma página dedicada a músicas.</p>
+        <video controls preload="metadata">
             <source src="videos/login_chrome_otimizado.mp4" type="video/mp4">
         </video><br>
     </div>
@@ -226,7 +231,7 @@ video, img{
 
 <div class="Projecto">
     <p><b>Software para monitoramento de actividades no mercado.</b> É um sistema com o objetivo de cadastrar vendedores, bancada, produtos e as respetivas quantidades levadas ao mercado, permitindo excluir e editar vendedores e produtos.</p>
-    <video controls preload="none">
+    <video controls preload="metadata">
         <source src="videos/mercado_x_otimizado.mp4" type="video/mp4">
     </video>
 </div>

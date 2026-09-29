@@ -93,14 +93,19 @@ justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 3%;
-    margin: 0;
-    width: 94.3%;
+      box-sizing: border-box;
+    width: 100%;
     text-align: center;
     background:#0a0f1a;
 }
+nav a{
+      padding: 0.85rem;
+}
  a:hover{
-        color: aqua;
+         padding: 14px 14px;
+     background: blue;
+     border-radius:25px;
+     color: white;
        }
 
         .tech-badges{
@@ -119,11 +124,12 @@ justify-content: center;
             font-size: 14px;
             color: #fff;
             backdrop-filter: blur(4px);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
      .nav-link.active{
     backdrop-filter: blur(10px);
     width: 25%;
-       background:rgba(255, 255, 255, 0.12);
+      background: rgba(37,99,235,0.35);
      border-radius:25px;
      color: white;
  }
@@ -260,11 +266,12 @@ a:hover{
             font-size: 14px;
             color: #fff;
             backdrop-filter: blur(4px);
-        }
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+           }
         .nav-link.active{
     backdrop-filter: blur(10px);
     padding: 14px 16px;
-     background:rgba(255, 255, 255, 0.12);
+       background: rgba(37,99,235,0.35);
      border-radius:25px;
      color: white;
  }
@@ -345,7 +352,7 @@ a:hover{
      <div class="tech-badges">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
-    <span class="badge">BootsTrap</span>
+    <span class="badge">BootStrap</span>
     <span class="badge">JavaScript</span>
    </div>
    </div>
@@ -353,16 +360,16 @@ a:hover{
 <div class="card back">
     <div class="card-icon">⚙</div>
     <h2>Back-End</h2>
-    <span class="anos">1 anos de experiência</span>
+    <span class="anos">1 ano de experiência</span>
     <p>Desenvolvo API e sistemas back-end robustos, com autenticação, segurança e integração com bases de dados.</p>
     <div class="tech-badges">
-    <span class="badge">Node.JS</span>
+    <span class="badge">Node.js</span>
     <span class="badge">Java</span>
     <span class="badge">Spring Boot</span>
     <span class="badge">MySQL</span>
    </div>
 </div>
 
-   <div class="card front"><div class="loader"><h3 class="texto">Estudando</h3></div></div></div>
+   <div class="card front"> <h2>Engenharia Informática</h2> <div class="loader"><h3 class="texto">Estudando</h3></div></div></div>
 </body>
 </html>
